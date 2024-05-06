@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* padding: 20px; */
 }
 
-.App-link {
-  color: #61dafb;
+.movie-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.title {
+  
+  color: #cb3535;
+  font-size: 34px; 
+  padding: 3px;
+  text-align: center;
+  border: 2px solid rgb(29, 224, 182);
+  border-radius: 10px;
+  margin-top: 0;
+
+  /* Add more styles as needed */
+}
+
+
+
+/* Filter Controls */
+.filter-controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.filter-controls label {
+  margin-right: 20px;
+  color: #555; /* Label color */
+  /* background-color: aqua; */
+}
+
+.filter-controls select {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background-color: #f0f0f0; /* Button background color */
+  color: #555; /* Button text color */
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.filter-controls select:hover,
+.filter-controls select:focus {
+  background-color: #ddd; /* Button background color on hover/focus */
+}
+
+.filter-controls select option {
+  padding: 10px;
+  font-size: 14px;
+  color: #555; /* Option text color */
+  background-color: #fff; /* Option background color */
+}
+
+.filter-controls select option:hover {
+  background-color: #f0f0f0; /* Option background color on hover */
+}
+
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
 }
