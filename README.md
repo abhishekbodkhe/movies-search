@@ -1,4 +1,4 @@
-# Movie Details App
+# Movies Search across { Genre, Countris, Languages }
 
 This is a React application that displays details of movies from a JSON file.
 Users can filter the movies based on language, country, and genre.
