@@ -40,6 +40,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 - `App.js`: Main component of the application.
 - `App.css`: Styles for the main component.
 - `movies.json`: JSON file containing movie data.
+## Screenshots
+
+<img src="https://github.com/abhishekbodkhe/movies-search/blob/main/screenshot%201.jpg?raw=true" alt="GitHub Logo" style="max-width: 100%;">
+<img src="https://github.com/abhishekbodkhe/movies-search/blob/main/screenshot%202.jpg?raw=true" alt="GitHub Logo" style="max-width: 100%;">
 
 ## Author
 
